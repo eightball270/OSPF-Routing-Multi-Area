@@ -1,1 +1,2 @@
 # OSPF Routing Multi Area
+Based on previous projects ([Cisco and MikroTik Dynamic Routing](https://github.com/eightball270/Cisco-and-MikroTik-Dynamic-Routing/tree/main?tab=readme-ov-file#cisco-and-mikrotik-dynamic-routing), [Basic VLAN and DHCP Server](https://github.com/eightball270/Basic-VLAN-and-DHCP-Server/tree/main#basic-vlan-and-dhcp-server), and [DHCP Relay Configuration](https://github.com/eightball270/DHCP-Relay-Configuration#dhcp-relay-configuration)), this project uses the OSPF dynamic routing protocol to apply to large networks because it has multiple areas.
