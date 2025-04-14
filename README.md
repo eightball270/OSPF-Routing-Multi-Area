@@ -30,20 +30,20 @@ In OSPF routing, freely choose a given number of areas to create a complex netwo
 
 ### Cisco
 
-![]()
+![OSPF Multi Area.png](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/OSPF%20Multi%20Area.png)
 
-[Project File Link]()
+[Project File Link](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/OSPF%20Multi%20Area.pkt)
 
-......
+The result of multi-area OSPF routing using the **traceroute** command from a client in one area to another client representing a different area.
 
-![]() ![]() ![]() ![]()
+![OSPF Multi Area (1).png](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/OSPF%20Multi%20Area%20(1).png) ![OSPF Multi Area (2).png](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/OSPF%20Multi%20Area%20(2).png) ![OSPF Multi Area (3).png](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/OSPF%20Multi%20Area%20(3).png) ![OSPF Multi Area (4).png](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/OSPF%20Multi%20Area%20(4).png)
 
 ### MikroTik
 
-![]()
+![OSPF Multi Area (MikroTik).png](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/OSPF%20Multi%20Area%20(MikroTik).png)
 
-[Project File Link]()
+[Project File Link](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/OSPF%20Multi%20Area%20(MikroTik).gns3project.7z)
 
-.......
+The result of multi-area OSPF routing using the **trace** command from a client in one area to another client representing a different area.
 
-![]() ![]() ![]()
+![OSPF Multi Area (MikroTik) (1).png](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/OSPF%20Multi%20Area%20(MikroTik)%20(1).png) ![OSPF Multi Area (MikroTik) (2).png](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/OSPF%20Multi%20Area%20(MikroTik)%20(2).png) ![OSPF Multi Area (MikroTik) (3).png](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/OSPF%20Multi%20Area%20(MikroTik)%20(3).png)
