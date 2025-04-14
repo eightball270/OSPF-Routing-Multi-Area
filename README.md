@@ -20,7 +20,7 @@ Based on previous projects ([Cisco and MikroTik Dynamic Routing](https://github.
 2. Assign an IP address to each router as a gateway
 3. Inter-router connection
 4. All of routers configured static routing to the host (for remote MikroTik via WinBox)
-5. DHCP server on main router (R1) and create port forwarding for WinBox (MikroTik)
+5. DHCP server on main router (R1) and create port forwarding for remote via WinBox (MikroTik)
 6. DHCP relay on some another routers that is directly connected to some clients
 7. OSPF routing protocol configuration via command-line (Cisco) and WinBox (MikroTik), including process/router ID and area ID
 8. SSID and password on a Access Point (for WLAN connection)
