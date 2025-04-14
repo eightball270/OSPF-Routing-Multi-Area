@@ -16,7 +16,34 @@ Based on previous projects ([Cisco and MikroTik Dynamic Routing](https://github.
 **) optional if creating a WLAN connection, but can be replaced with a regular LAN (Client PCs)
 
 ## Configuration Completed
-1. 
+1. VLANs on routers and switches that directly connected to the clients
+2. Assign an IP address to each router as a gateway
+3. Inter-router connection
+4. All of routers configured static routing to the host (for remote MikroTik via WinBox)
+5. DHCP server on main router (R1) and create port forwarding for WinBox (MikroTik)
+6. DHCP relay on some another routers that is directly connected to some clients
+7. OSPF routing protocol configuration via command-line (Cisco) and WinBox (MikroTik), including process/router ID and area ID
+8. SSID and password on a Access Point (for WLAN connection)
 
 ## OSPF Multi Area
+In OSPF routing, freely choose a given number of areas to create a complex network, the example below uses an OSPF area count of 4-5.
 
+### Cisco
+
+![]()
+
+[Project File Link]()
+
+......
+
+![]() ![]() ![]() ![]()
+
+### MikroTik
+
+![]()
+
+[Project File Link]()
+
+.......
+
+![]() ![]() ![]()
