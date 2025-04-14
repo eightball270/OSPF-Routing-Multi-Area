@@ -26,7 +26,7 @@ Based on previous projects ([Cisco and MikroTik Dynamic Routing](https://github.
 8. SSID and password on a Access Point (for WLAN connection)
 
 ## OSPF Multi Area
-In OSPF routing, freely choose a given number of areas to create a complex network, the example below uses an OSPF area count of 4-5.
+In OSPF routing, freely choose a given number of areas to create a complex network, the example below uses an OSPF area count of 4-5 with a minimum of 1 area (area 0/backbone area only).
 
 ### Cisco
 
