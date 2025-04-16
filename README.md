@@ -1,8 +1,8 @@
 # OSPF Routing Multi Area
-Based on previous projects ([Cisco and MikroTik Dynamic Routing](https://github.com/eightball270/Cisco-and-MikroTik-Dynamic-Routing/tree/main?tab=readme-ov-file#cisco-and-mikrotik-dynamic-routing), [Basic VLAN and DHCP Server](https://github.com/eightball270/Basic-VLAN-and-DHCP-Server/tree/main#basic-vlan-and-dhcp-server), and [DHCP Relay Configuration](https://github.com/eightball270/DHCP-Relay-Configuration#dhcp-relay-configuration)), this project uses the OSPF (Open Shortest Path First) dynamic routing protocol, which is suitable for large networks due to its support for multiple areas. It also centralizes the DHCP server configuration, allowing clients in each area to automatically receive IP configuration from the nearest router configured with a DHCP relay.
+Based on previous simulation ([Cisco and MikroTik Dynamic Routing](https://github.com/eightball270/Cisco-and-MikroTik-Dynamic-Routing/tree/main?tab=readme-ov-file#cisco-and-mikrotik-dynamic-routing), [Basic VLAN and DHCP Server](https://github.com/eightball270/Basic-VLAN-and-DHCP-Server/tree/main#basic-vlan-and-dhcp-server), and [DHCP Relay Configuration](https://github.com/eightball270/DHCP-Relay-Configuration#dhcp-relay-configuration)), this simulation uses the OSPF (Open Shortest Path First) dynamic routing protocol, which is suitable for large networks due to its support for multiple areas. It also centralizes the DHCP server configuration, allowing clients in each area to automatically receive IP configuration from the nearest router configured with a DHCP relay.
 
 ## Technology Used
-1. Cisco Packet Tracer v8.2.2
+1. Cisco Packet Tracer
 2. GNS3 (MikroTik)
 
 ## Requirements
@@ -30,20 +30,20 @@ In OSPF routing, freely choose a given number of areas to create a complex netwo
 
 ### Cisco
 
-![OSPF Multi Area.png](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/OSPF%20Multi%20Area.png)
+![OSPF Multi Area.png](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/Cisco/OSPF%20Multi%20Area.png)
 
-[Project File Link](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/OSPF%20Multi%20Area.pkt)
+[Project File Link](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/Cisco/OSPF%20Multi%20Area.pkt)
 
 The result of multi-area OSPF routing using the **traceroute** command from a client in one area to another client representing a different area.
 
-![OSPF Multi Area (1).png](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/OSPF%20Multi%20Area%20(1).png) ![OSPF Multi Area (2).png](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/OSPF%20Multi%20Area%20(2).png) ![OSPF Multi Area (3).png](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/OSPF%20Multi%20Area%20(3).png) ![OSPF Multi Area (4).png](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/OSPF%20Multi%20Area%20(4).png)
+![OSPF Multi Area (1).png](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/Cisco/OSPF%20Multi%20Area%20(1).png) ![OSPF Multi Area (2).png](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/Cisco/OSPF%20Multi%20Area%20(2).png) ![OSPF Multi Area (3).png](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/Cisco/OSPF%20Multi%20Area%20(3).png) ![OSPF Multi Area (4).png](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/Cisco/OSPF%20Multi%20Area%20(4).png)
 
 ### MikroTik
 
-![OSPF Multi Area (MikroTik).png](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/OSPF%20Multi%20Area%20(MikroTik).png)
+![OSPF Multi Area (MikroTik).png](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/MikroTik/OSPF%20Multi%20Area%20(MikroTik).png)
 
-[Project File Link](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/OSPF%20Multi%20Area%20(MikroTik).gns3project.7z)
+[Project File Link](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/MikroTik/OSPF%20Multi%20Area%20(MikroTik).gns3project.7z)
 
 The result of multi-area OSPF routing using the **trace** command from a client in one area to another client representing a different area.
 
-![OSPF Multi Area (MikroTik) (1).png](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/OSPF%20Multi%20Area%20(MikroTik)%20(1).png) ![OSPF Multi Area (MikroTik) (2).png](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/OSPF%20Multi%20Area%20(MikroTik)%20(2).png) ![OSPF Multi Area (MikroTik) (3).png](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/OSPF%20Multi%20Area%20(MikroTik)%20(3).png)
+![OSPF Multi Area (MikroTik) (1).png](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/MikroTik/OSPF%20Multi%20Area%20(MikroTik)%20(1).png) ![OSPF Multi Area (MikroTik) (2).png](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/MikroTik/OSPF%20Multi%20Area%20(MikroTik)%20(2).png) ![OSPF Multi Area (MikroTik) (3).png](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/MikroTik/OSPF%20Multi%20Area%20(MikroTik)%20(3).png)
