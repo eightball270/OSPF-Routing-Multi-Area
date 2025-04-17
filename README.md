@@ -1,5 +1,5 @@
 # OSPF Routing Multi Area
-Based on previous simulation ([Cisco and MikroTik Dynamic Routing](https://github.com/eightball270/Cisco-and-MikroTik-Dynamic-Routing/tree/main?tab=readme-ov-file#cisco-and-mikrotik-dynamic-routing), [Basic VLAN and DHCP Server](https://github.com/eightball270/Basic-VLAN-and-DHCP-Server/tree/main#basic-vlan-and-dhcp-server), and [DHCP Relay Configuration](https://github.com/eightball270/DHCP-Relay-Configuration#dhcp-relay-configuration)), this simulation uses the OSPF (Open Shortest Path First) dynamic routing protocol, which is suitable for large networks due to its support for multiple areas. It also centralizes the DHCP server configuration, allowing clients in each area to automatically receive IP configuration from the nearest router configured with a DHCP relay.
+Building on the previous simulation ([Cisco and MikroTik Dynamic Routing](https://github.com/eightball270/Cisco-and-MikroTik-Dynamic-Routing/tree/main?tab=readme-ov-file#cisco-and-mikrotik-dynamic-routing), [Basic VLAN and DHCP Server](https://github.com/eightball270/Basic-VLAN-and-DHCP-Server/tree/main#basic-vlan-and-dhcp-server), and [DHCP Relay Configuration](https://github.com/eightball270/DHCP-Relay-Configuration#dhcp-relay-configuration)), this simulation utilizes the OSPF (Open Shortest Path First) dynamic routing protocol, which is well-suited for large networks due to its support for multiple areas. The DHCP server configuration is centralized, enabling clients in each area to automatically receive IP configuration from the nearest router configured with a DHCP relay.
 
 ## Technology Used
 1. Cisco Packet Tracer
@@ -26,13 +26,13 @@ Based on previous simulation ([Cisco and MikroTik Dynamic Routing](https://githu
 8. SSID and password on a Access Point (for WLAN connection)
 
 ## OSPF Multi Area
-In OSPF routing, freely choose a given number of areas to create a complex network, the example below uses an OSPF area count of 4-5 with a minimum of 1 area (area 0/backbone area only).
+In OSPF routing, any number of areas can be defined to build a complex network. The example below uses 4 to 5 OSPF areas, with a minimum requirement of one area (area 0, also known as the backbone area).
 
 ### Cisco
 
 ![OSPF Multi Area.png](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/Cisco/OSPF%20Multi%20Area.png)
 
-[Project File Link](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/Cisco/OSPF%20Multi%20Area.pkt)
+[Project File Link (Packet Tracer)](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/Cisco/OSPF%20Multi%20Area.pkt)
 
 The result of multi-area OSPF routing using the **traceroute** command from a client in one area to another client representing a different area.
 
@@ -42,7 +42,7 @@ The result of multi-area OSPF routing using the **traceroute** command from a cl
 
 ![OSPF Multi Area (MikroTik).png](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/MikroTik/OSPF%20Multi%20Area%20(MikroTik).png)
 
-[Project File Link](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/MikroTik/OSPF%20Multi%20Area%20(MikroTik).gns3project.7z)
+[Project File Link (GNS3)](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/MikroTik/OSPF%20Multi%20Area%20(MikroTik).gns3project.7z) (extract the file first)
 
 The result of multi-area OSPF routing using the **trace** command from a client in one area to another client representing a different area.
 
