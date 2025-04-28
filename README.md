@@ -42,7 +42,7 @@ The result of multi-area OSPF routing using the **traceroute** command from a cl
 
 ![OSPF Multi Area (MikroTik).png](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/MikroTik/OSPF%20Multi%20Area%20(MikroTik).png)
 
-[Project File Link (GNS3)](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/MikroTik/OSPF%20Multi%20Area%20(MikroTik).gns3project.7z) (extract the file first)
+[Project File Link (GNS3)](https://github.com/eightball270/OSPF-Routing-Multi-Area/blob/main/MikroTik/OSPF%20Multi%20Area%20(MikroTik).gns3project.rar) (extract the file first)
 
 The result of multi-area OSPF routing using the **trace** command from a client in one area to another client representing a different area.
 
