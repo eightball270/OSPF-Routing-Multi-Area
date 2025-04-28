@@ -11,8 +11,7 @@ Building on the previous simulation ([Cisco and MikroTik Dynamic Routing](https:
 3. Client PCs
 4. Access Point and Client Wireless devices**
 
-*) according to the number of OSPF routing areas
-
+*) according to the number of OSPF routing areas  
 **) optional if creating a WLAN connection, but can be replaced with a regular LAN (Client PCs)
 
 ## Configuration Completed
