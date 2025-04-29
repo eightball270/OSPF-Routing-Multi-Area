@@ -14,7 +14,7 @@ Building on the previous simulation ([Cisco and MikroTik Dynamic Routing](https:
 *) according to the number of OSPF routing areas  
 **) optional if creating a WLAN connection, but can be replaced with a regular LAN (Client PCs)
 
-## Configuration Completed
+## Configuration Done
 1. VLANs on routers and switches that directly connected to the clients
 2. Assign an IP address to each router as a gateway
 3. Inter-router connection
