@@ -1,11 +1,11 @@
 # OSPF Routing Multi Area
 Building on the previous simulation ([Cisco and MikroTik Dynamic Routing](https://github.com/eightball270/Cisco-and-MikroTik-Dynamic-Routing/tree/main?tab=readme-ov-file#cisco-and-mikrotik-dynamic-routing), [Basic VLAN and DHCP Server](https://github.com/eightball270/Basic-VLAN-and-DHCP-Server/tree/main#basic-vlan-and-dhcp-server), and [DHCP Relay Configuration](https://github.com/eightball270/DHCP-Relay-Configuration#dhcp-relay-configuration)), this simulation utilizes the OSPF (Open Shortest Path First) dynamic routing protocol, which is well-suited for large networks due to its support for multiple areas. The DHCP server configuration is centralized, enabling clients in each area to automatically receive IP configuration from the nearest router configured with a DHCP relay.
 
-## Technology Used
+## Simulator Used
 1. Cisco Packet Tracer
 2. GNS3 (MikroTik)
 
-## Requirements
+## Requirement Nodes
 1. 6 or 8 routers*
 2. 3 or 4 switches*
 3. Client PCs
